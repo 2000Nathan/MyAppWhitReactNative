@@ -1,0 +1,33 @@
+{
+    "puntos_interes": [
+      {
+        "nombre": "Museo de Arte Moderno",
+        "latitud": 40.7614,
+        "longitud": -73.9776,
+        "descripcion": "Un museo dedicado al arte moderno y contemporáneo.",
+        "direccion": "11 W 53rd St, Nueva York, NY 10019, EE. UU."
+      },
+      {
+        "nombre": "Torre Eiffel",
+        "latitud": 48.858844,
+        "longitud": 2.294351,
+        "descripcion": "La icónica torre de hierro en París, Francia.",
+        "direccion": "Champ de Mars, 5 Avenue Anatole France, 75007 París, Francia"
+      },
+      {
+        "nombre": "Gran Muralla China",
+        "latitud": 40.4319,
+        "longitud": 116.5704,
+        "descripcion": "Una antigua fortificación en China que se extiende por miles de kilómetros.",
+        "direccion": "Mutianyu, Huairou, Pekín, China"
+      },
+      {
+        "nombre": "Machu Picchu",
+        "latitud": -13.1631,
+        "longitud": -72.5450,
+        "descripcion": "Una antigua ciudad inca en lo alto de los Andes peruanos.",
+        "direccion": "Machu Picchu, Aguas Calientes, Perú"
+      }
+    ]
+  }
+  
