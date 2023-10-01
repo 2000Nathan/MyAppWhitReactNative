@@ -61,7 +61,7 @@ export default function Register( props ) {
                         </View>
 
                         <View style={styles.spacing2}>
-                            <TouchableOpacity style={styles.button}>
+                            <TouchableOpacity onPress={goToLogin} style={styles.button}>
                                 <Text style={styles.buttonText}>NEXT</Text>      
                             </TouchableOpacity> 
                         </View>
