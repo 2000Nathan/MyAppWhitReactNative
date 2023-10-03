@@ -7,6 +7,9 @@ export default function Login( props ) {
     const goToRegister = () => {
         navigation.navigate("Register");
     }
+    const goToHome = () => {
+        navigation.navigate("Home");
+    }
 
     return (
         <SafeAreaView style={styles.container}>
@@ -53,8 +56,8 @@ export default function Login( props ) {
                         </View>
 
                         <View style={styles.spacing}>
-                            <TouchableOpacity style={styles.button}>
-                                <Text style={styles.buttonText}>Login</Text>      
+                            <TouchableOpacity style={styles.button} onPress={goToHome}>
+                                    <Text style={styles.buttonText}>Login</Text>      
                             </TouchableOpacity> 
                         </View>
                     </View>
