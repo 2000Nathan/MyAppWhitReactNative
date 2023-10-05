@@ -1,4 +1,5 @@
-import { StyleSheet, SafeAreaView, View, Image, Text, TextInput, TouchableOpacity } from "react-native";
+import {  SafeAreaView, View, Image, Text, TextInput, TouchableOpacity } from "react-native";
+import   {styles}  from  '../../styles/login/index';
 
 export default function Login( props ) {
 
@@ -15,9 +16,7 @@ export default function Login( props ) {
         <SafeAreaView style={styles.container}>
 
             <View style={styles.firstSection}>
-                <Image source={{
-                        uri: 'https://media.istockphoto.com/id/1493267168/es/foto/avi%C3%B3n-de-pasajeros-despega-vista-frontal-contra.webp?b=1&s=612x612&w=0&k=20&c=eukig9Ouf7yP9RWTZ_hv17zZoojp27F9gtgHQ2EFU5o='
-                    }}
+                <Image source={require('../../../assets/fonts/abandoned-1866567_1280.jpg')}
                     style={{ width: "100%", height: "120%", resizeMode: "cover"}}  //resizeMode: reajusta la imagen
                 />
 
@@ -75,67 +74,3 @@ export default function Login( props ) {
     );
 }
 
-
-export const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#FFF',
-        alignItems: 'center',
-        justifyContent: 'center'
-    },
-    firstSection: {
-        flex: 1,
-        alignItems: 'center',
-        justifyContent:'center',
-        backgroundColor: 'green',
-        width: "100%"
-    },
-    seconSection: {
-        flex: 2,
-        backgroundColor: "white",
-        width: "100%",
-        borderTopRightRadius: 25,
-        borderTopLeftRadius: 25,
-        padding: 20,
-        justifyContent: "space-between",
-    },
-    title: {
-        fontSize: 48,
-        color: "white",
-        fontWeight: 'bold'
-    },
-    label: {
-        color: "#ccc",
-    },
-    textInput: {
-       color: "#ccc",
-       padding: 8,
-    },
-    forgotPassword: {
-        color: "#000",
-        textAlign: "right"
-    },
-    button: {
-        backgroundColor: "pink",
-        padding: 15,
-        borderRadius: 30,
-        alignItems: "center",
-    },
-    buttonText:{
-        color:"white",
-        fontWeight: "bold",
-    },
-    spacing:{
-        marginTop: 10
-    },
-    row:{
-        flexDirection: "row",
-        justifyContent: "center"
-    },
-    signup: {
-        color: "pink",
-        paddingLeft: 5,
-    }
-
-    
-})
